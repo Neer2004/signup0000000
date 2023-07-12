@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.security {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/security\ bg.gif);
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid rgb(25, 29, 80);
+
+    background-color: transparent;
+}
+
+img {
+    width: 140px;
+    border-radius: 100px;
+}
+
+img:hover {
+    width: 140px;
+    border: 4px solid red;
+
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    font-size: 2.0rem;
+    font-family: cursive;
+    font-weight: 700;
+    color: white;
+}
+
+input {
+    background: transparent;
+    border: 1.3px solid rgb(236, 188, 98);
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    color: red;
+}
+
+input:hover {
+    font-size: 2.3rem;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    color: rgb(233, 190, 190);
+}
+
+button {
+    font-size: 1.8rem;
+    background: transparent;
+    text-decoration: underline;
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+
+button:hover {
+    text-decoration: dotted;
+    font-size: 2rem;
+}
+
+a {
+    font-size: 30px;
+}
+
+a:hover {
+    color: aliceblue;
+}
